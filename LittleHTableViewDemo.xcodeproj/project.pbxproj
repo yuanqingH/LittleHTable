@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7470078A1E779639006D291A /* LittleHTableViewBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747007891E779639006D291A /* LittleHTableViewBaseCell.swift */; };
+		7470078C1E77972B006D291A /* LittleHTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470078B1E77972B006D291A /* LittleHTableViewDataSource.swift */; };
+		74700A231E792274006D291A /* LittleHTableViewBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A221E792274006D291A /* LittleHTableViewBaseModel.swift */; };
+		74700A251E792285006D291A /* LittleHTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A241E792285006D291A /* LittleHTableViewModel.swift */; };
+		74700A271E792302006D291A /* LittleHTableViewBaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A261E792302006D291A /* LittleHTableViewBaseItem.swift */; };
+		74700A2F1E792552006D291A /* LittleHDemoHomeVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A2E1E792552006D291A /* LittleHDemoHomeVCL.swift */; };
+		74700A311E79258A006D291A /* LittleHBaseVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A301E79258A006D291A /* LittleHBaseVCL.swift */; };
+		74700A331E7925E0006D291A /* LittleHDemoHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A321E7925E0006D291A /* LittleHDemoHomeModel.swift */; };
+		74700A351E792601006D291A /* LittleHDemoHomeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A341E792601006D291A /* LittleHDemoHomeDataSource.swift */; };
+		74700A371E7926CD006D291A /* LittleHDemoHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A361E7926CD006D291A /* LittleHDemoHomeItem.swift */; };
+		74700A391E7927ED006D291A /* LittleHDemoHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700A381E7927ED006D291A /* LittleHDemoHomeCell.swift */; };
+		7470FE371E729FE8006D291A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470FE361E729FE8006D291A /* AppDelegate.swift */; };
+		7470FE391E729FE8006D291A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470FE381E729FE8006D291A /* ViewController.swift */; };
+		7470FE3C1E729FE8006D291A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7470FE3A1E729FE8006D291A /* Main.storyboard */; };
+		7470FE3E1E729FE8006D291A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7470FE3D1E729FE8006D291A /* Assets.xcassets */; };
+		7470FE411E729FE8006D291A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7470FE3F1E729FE8006D291A /* LaunchScreen.storyboard */; };
+		7470FE501E72A3A7006D291A /* LittleHTableViewBaseVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470FE4F1E72A3A7006D291A /* LittleHTableViewBaseVCL.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		747007891E779639006D291A /* LittleHTableViewBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHTableViewBaseCell.swift; sourceTree = "<group>"; };
+		7470078B1E77972B006D291A /* LittleHTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHTableViewDataSource.swift; sourceTree = "<group>"; };
+		74700A221E792274006D291A /* LittleHTableViewBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHTableViewBaseModel.swift; sourceTree = "<group>"; };
+		74700A241E792285006D291A /* LittleHTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHTableViewModel.swift; sourceTree = "<group>"; };
+		74700A261E792302006D291A /* LittleHTableViewBaseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHTableViewBaseItem.swift; sourceTree = "<group>"; };
+		74700A2E1E792552006D291A /* LittleHDemoHomeVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHDemoHomeVCL.swift; sourceTree = "<group>"; };
+		74700A301E79258A006D291A /* LittleHBaseVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHBaseVCL.swift; sourceTree = "<group>"; };
+		74700A321E7925E0006D291A /* LittleHDemoHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHDemoHomeModel.swift; sourceTree = "<group>"; };
+		74700A341E792601006D291A /* LittleHDemoHomeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHDemoHomeDataSource.swift; sourceTree = "<group>"; };
+		74700A361E7926CD006D291A /* LittleHDemoHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHDemoHomeItem.swift; sourceTree = "<group>"; };
+		74700A381E7927ED006D291A /* LittleHDemoHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHDemoHomeCell.swift; sourceTree = "<group>"; };
+		7470FE331E729FE8006D291A /* LittleHTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleHTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7470FE361E729FE8006D291A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7470FE381E729FE8006D291A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7470FE3B1E729FE8006D291A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7470FE3D1E729FE8006D291A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7470FE401E729FE8006D291A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7470FE421E729FE8006D291A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7470FE4F1E72A3A7006D291A /* LittleHTableViewBaseVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleHTableViewBaseVCL.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7470FE301E729FE8006D291A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74700A281E792522006D291A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74700A2E1E792552006D291A /* LittleHDemoHomeVCL.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		74700A291E792522006D291A /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+				74700A2A1E792522006D291A /* DataSource */,
+				74700A2B1E792522006D291A /* Items */,
+				74700A321E7925E0006D291A /* LittleHDemoHomeModel.swift */,
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		74700A2A1E792522006D291A /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				74700A341E792601006D291A /* LittleHDemoHomeDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		74700A2B1E792522006D291A /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				74700A361E7926CD006D291A /* LittleHDemoHomeItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		74700A2C1E792522006D291A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74700A2D1E792522006D291A /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74700A2D1E792522006D291A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				74700A381E7927ED006D291A /* LittleHDemoHomeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7470FE2A1E729FE8006D291A = {
+			isa = PBXGroup;
+			children = (
+				7470FE481E72A0D8006D291A /* LittleHTableView */,
+				7470FE351E729FE8006D291A /* LittleHTableViewDemo */,
+				7470FE341E729FE8006D291A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7470FE341E729FE8006D291A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7470FE331E729FE8006D291A /* LittleHTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7470FE351E729FE8006D291A /* LittleHTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74700A281E792522006D291A /* Controllers */,
+				74700A291E792522006D291A /* Modles */,
+				74700A2C1E792522006D291A /* Views */,
+				7470FE361E729FE8006D291A /* AppDelegate.swift */,
+				7470FE381E729FE8006D291A /* ViewController.swift */,
+				7470FE3A1E729FE8006D291A /* Main.storyboard */,
+				7470FE3D1E729FE8006D291A /* Assets.xcassets */,
+				7470FE3F1E729FE8006D291A /* LaunchScreen.storyboard */,
+				7470FE421E729FE8006D291A /* Info.plist */,
+			);
+			path = LittleHTableViewDemo;
+			sourceTree = "<group>";
+		};
+		7470FE481E72A0D8006D291A /* LittleHTableView */ = {
+			isa = PBXGroup;
+			children = (
+				7470FE491E72A380006D291A /* Controllers */,
+				7470FE4A1E72A380006D291A /* Models */,
+				7470FE4D1E72A380006D291A /* Views */,
+			);
+			path = LittleHTableView;
+			sourceTree = "<group>";
+		};
+		7470FE491E72A380006D291A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7470FE4F1E72A3A7006D291A /* LittleHTableViewBaseVCL.swift */,
+				74700A301E79258A006D291A /* LittleHBaseVCL.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7470FE4A1E72A380006D291A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7470FE4B1E72A380006D291A /* DataSource */,
+				7470FE4C1E72A380006D291A /* Items */,
+				74700A221E792274006D291A /* LittleHTableViewBaseModel.swift */,
+				74700A241E792285006D291A /* LittleHTableViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7470FE4B1E72A380006D291A /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				7470078B1E77972B006D291A /* LittleHTableViewDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		7470FE4C1E72A380006D291A /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				74700A261E792302006D291A /* LittleHTableViewBaseItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		7470FE4D1E72A380006D291A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7470FE4E1E72A380006D291A /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7470FE4E1E72A380006D291A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				747007891E779639006D291A /* LittleHTableViewBaseCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7470FE321E729FE8006D291A /* LittleHTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7470FE451E729FE8006D291A /* Build configuration list for PBXNativeTarget "LittleHTableViewDemo" */;
+			buildPhases = (
+				7470FE2F1E729FE8006D291A /* Sources */,
+				7470FE301E729FE8006D291A /* Frameworks */,
+				7470FE311E729FE8006D291A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleHTableViewDemo;
+			productName = LittleHTableViewDemo;
+			productReference = 7470FE331E729FE8006D291A /* LittleHTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7470FE2B1E729FE8006D291A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HYQ;
+				TargetAttributes = {
+					7470FE321E729FE8006D291A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7470FE2E1E729FE8006D291A /* Build configuration list for PBXProject "LittleHTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7470FE2A1E729FE8006D291A;
+			productRefGroup = 7470FE341E729FE8006D291A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7470FE321E729FE8006D291A /* LittleHTableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7470FE311E729FE8006D291A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7470FE411E729FE8006D291A /* LaunchScreen.storyboard in Resources */,
+				7470FE3E1E729FE8006D291A /* Assets.xcassets in Resources */,
+				7470FE3C1E729FE8006D291A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7470FE2F1E729FE8006D291A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74700A371E7926CD006D291A /* LittleHDemoHomeItem.swift in Sources */,
+				7470078C1E77972B006D291A /* LittleHTableViewDataSource.swift in Sources */,
+				74700A351E792601006D291A /* LittleHDemoHomeDataSource.swift in Sources */,
+				7470FE501E72A3A7006D291A /* LittleHTableViewBaseVCL.swift in Sources */,
+				7470FE391E729FE8006D291A /* ViewController.swift in Sources */,
+				74700A231E792274006D291A /* LittleHTableViewBaseModel.swift in Sources */,
+				74700A271E792302006D291A /* LittleHTableViewBaseItem.swift in Sources */,
+				74700A311E79258A006D291A /* LittleHBaseVCL.swift in Sources */,
+				74700A391E7927ED006D291A /* LittleHDemoHomeCell.swift in Sources */,
+				7470078A1E779639006D291A /* LittleHTableViewBaseCell.swift in Sources */,
+				7470FE371E729FE8006D291A /* AppDelegate.swift in Sources */,
+				74700A331E7925E0006D291A /* LittleHDemoHomeModel.swift in Sources */,
+				74700A251E792285006D291A /* LittleHTableViewModel.swift in Sources */,
+				74700A2F1E792552006D291A /* LittleHDemoHomeVCL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7470FE3A1E729FE8006D291A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7470FE3B1E729FE8006D291A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7470FE3F1E729FE8006D291A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7470FE401E729FE8006D291A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7470FE431E729FE8006D291A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7470FE441E729FE8006D291A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7470FE461E729FE8006D291A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleHTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuanqing.LittleHTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7470FE471E729FE8006D291A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleHTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuanqing.LittleHTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7470FE2E1E729FE8006D291A /* Build configuration list for PBXProject "LittleHTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7470FE431E729FE8006D291A /* Debug */,
+				7470FE441E729FE8006D291A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7470FE451E729FE8006D291A /* Build configuration list for PBXNativeTarget "LittleHTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7470FE461E729FE8006D291A /* Debug */,
+				7470FE471E729FE8006D291A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7470FE2B1E729FE8006D291A /* Project object */;
+}
